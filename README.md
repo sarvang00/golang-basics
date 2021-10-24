@@ -33,3 +33,10 @@ A tutorial to explore golang concepts
 - Functions
 - Channels
 - etc.
+
+### To see output
+- ```go run main.go```
+
+### To build the code
+- Simply run ```go build```
+- To build for some non-host OS, ```GOOS="os_name" go build```
