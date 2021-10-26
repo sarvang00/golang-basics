@@ -40,3 +40,9 @@ A tutorial to explore golang concepts
 ### To build the code
 - Simply run ```go build```
 - To build for some non-host OS, ```GOOS="os_name" go build```
+
+### Memory Management
+- No need to do it manually; golang does it for us!
+- Garbage Collection (GC) happens automatically
+- ```new()```: Allocate memory, not init; zeroed storage; get mem address
+- ```make()```: Allocate memory and init; non-zeroed storage; get mem address
