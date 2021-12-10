@@ -1,2 +1,3 @@
 webserver/node_modules/*
 webserver/package-lock.json
+24buildapi/buildapi.exe
