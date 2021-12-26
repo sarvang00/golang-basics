@@ -24,7 +24,7 @@ func main() {
 
 	// Default values and aliases
 	var anotherVar int
-	print(anotherVar)
+	fmt.Println(anotherVar)
 	fmt.Printf("Another variable is of type: %T \n", anotherVar)
 
 	// implicit type
