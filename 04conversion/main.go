@@ -23,6 +23,10 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	} else {
-		fmt.Println("New rating is: ", numRating+1)
+		if numRating >= 1 && numRating <= 5 {
+			fmt.Println("New rating is: ", numRating+1)
+		} else {
+			fmt.Println("Invalid rating provided!")
+		}
 	}
 }
